@@ -5,7 +5,7 @@
 
 /*=====  VARIABLES COLORS  =====*/
 :root {
-  --c-brand: #135F00;
+  --c-brand: #005fb3;
   --c-brand2: #000000;
   --c-dark: #111;
   --c-dark2: #222;
@@ -28,7 +28,7 @@
 
 
 .light-mode {
-  --c-brand: #135F00;
+  --c-brand: #00435f;
   --c-brand2: #ffffff;
   --c-dark: #ccc;
   --c-dark2: #dadada;
@@ -743,7 +743,7 @@ textarea {
   letter-spacing: 0.05em;
   border-radius: 0.8em;
   border: none;
-  background: linear-gradient(to right, #2de23c77, #3fe00080);
+  background: linear-gradient(to right, #00bbff, #006eff);
   color: ghostwhite;
   overflow: hidden;
 }

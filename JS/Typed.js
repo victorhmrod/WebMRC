@@ -11,13 +11,13 @@ $(document).ready(function(){
      });
 
      var typed = new Typed(".typing", {
-         strings:["Páginas Web", "Jogos", "Projetos", "Programas"],
+         strings:["Seguros de vida", "Plano de saúde", "Seguro odontológico", "Seguro de automóvel"],
          typeSpeed:100,
          backSpeed:60,
          loop:true
      });
      var typed = new Typed(".typing-2", {
-        strings:["Fábrica de Software!"],
+        strings:["Mendonça Rodrigues Corretora!"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
