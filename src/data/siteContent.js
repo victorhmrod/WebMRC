@@ -8,75 +8,84 @@ export const navLinks = [
 ];
 
 export const heroHighlights = [
-  'Seguros de vida',
-  'Plano de saúde',
-  'Seguro odontológico',
-  'Seguro de automóvel',
+  'seguros residenciais',
+  'planos de saúde',
+  'consultoria em previdência',
+  'soluções personalizadas',
 ];
 
 export const services = [
   {
     icon: 'SiHtml5',
-    title: 'HTML5',
-    description: 'Inserir um texto.',
+    title: 'Planos sob medida',
+    description:
+      'Entendemos a necessidade de cada cliente para montar a proteção ideal para famílias e empresas.',
   },
   {
     icon: 'SiCss3',
-    title: 'CSS',
-    description: 'Inserir um texto.',
+    title: 'Atendimento humanizado',
+    description:
+      'Nossa equipe acompanha todas as etapas da contratação com comunicação transparente e rápida.',
   },
   {
     icon: 'SiJavascript',
-    title: 'Java Script',
-    description: 'Inserir um texto.',
+    title: 'Gestão completa',
+    description:
+      'Monitoramos renovações, coberturas e sinistros para que você tenha tranquilidade diária.',
   },
   {
     icon: 'SiReact',
-    title: 'React',
-    description: 'Inserir um texto.',
+    title: 'Parceiros estratégicos',
+    description:
+      'Trabalhamos com as principais seguradoras do mercado para garantir o melhor custo-benefício.',
   },
   {
     icon: 'SiPython',
-    title: 'Python',
-    description: 'Inserir um texto.',
+    title: 'Análise de riscos',
+    description:
+      'Utilizamos dados e histórico para sugerir as coberturas mais eficientes para seu perfil.',
   },
   {
     icon: 'SiNodedotjs',
-    title: 'NodeJs',
-    description: 'Inserir um texto.',
+    title: 'Suporte contínuo',
+    description:
+      'Estamos sempre disponíveis para esclarecer dúvidas e cuidar dos detalhes quando você mais precisa.',
   },
 ];
 
 export const projects = [
   {
     image: '/img/background/img_1.jpg',
-    title: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Programa Proteção Familiar',
+    description:
+      'Plano que integra seguro residencial, vida e saúde em um pacote flexível para famílias modernas.',
   },
   {
-    image: '/img/background/img_1.jpg',
-    title: 'Project 2',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    image: '/img/background/img_2.jpg',
+    title: 'Consultoria Empresarial',
+    description:
+      'Estruturação completa das coberturas corporativas para pequenas e médias empresas baianas.',
   },
   {
-    image: '/img/background/img_1.jpg',
-    title: 'Project 3',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    image: '/img/background/img_3.jpg',
+    title: 'Planejamento de Previdência',
+    description:
+      'Acompanhamento contínuo para garantir tranquilidade financeira a longo prazo.',
   },
 ];
 
 export const progressStats = [
-  { label: 'Projetos realizados', value: 0 },
+  { label: 'Projetos realizados', value: 35 },
   { label: 'Projetos em andamento', value: 70 },
   { label: 'Horas já cumpridas', value: 100 },
   { label: 'Estudos já feitos', value: 47 },
-  { label: 'Ideias realizadas', value: 0 },
+  { label: 'Ideias realizadas', value: 55 },
 ];
 
 export const teamMembers = [
   {
     name: 'Alexsandra Mendonça',
-    role: '...',
+    role: 'Sócia-fundadora',
     image: '/img/equipe/perfil_alexsandra.jpg',
     socials: {
       whatsapp: 'https://wa.link/21qe55',
@@ -85,7 +94,7 @@ export const teamMembers = [
   },
   {
     name: 'Isabel Brito',
-    role: '...',
+    role: 'Especialista em seguros',
     image: '/img/equipe/perfil_isabel.png',
     socials: {
       whatsapp: 'https://wa.link/y5jlwq',
@@ -95,7 +104,7 @@ export const teamMembers = [
   },
   {
     name: 'Victor Henrique',
-    role: '...',
+    role: 'Consultor de negócios',
     image: '/img/equipe/perfil_henrique.jpg',
     socials: {
       whatsapp: 'https://wa.link/b0d2ya',
@@ -107,7 +116,7 @@ export const teamMembers = [
 
 export const contactCards = [
   {
-    label: '(71) 991803612',
+    label: '(71) 99180-3612',
     href: 'tel:+5571991803612',
     icon: 'IoCall',
   },
@@ -118,7 +127,7 @@ export const contactCards = [
   },
   {
     label: 'Salvador - BA',
-    href: '#',
+    href: 'https://maps.app.goo.gl/E7TpyeG98u8QPM7Q6',
     icon: 'IoLocation',
   },
 ];

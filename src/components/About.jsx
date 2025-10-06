@@ -12,13 +12,14 @@ const About = () => (
           </div>
           <div className="column right">
             <div className="text">
-              Olá, somos a <span className="typing-2">Mendonça Rodrigues Corretora!</span>
+              Olá, somos a <span className="typing-2">Mendonça Rodrigues Corretora</span>
             </div>
             <p>
-              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
-              previewing layouts and visual mockups.
+              Protegemos o que é importante para você. Oferecemos consultoria especializada para construir
+              soluções sob medida em seguros, previdência e benefícios. Entre em contato e descubra como
+              podemos apoiar os seus planos.
             </p>
-            <button className="cssbuttons-io" type="button">
+            <a className="cssbuttons-io" href="https://wa.me/5571991803612">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z" />
@@ -29,7 +30,7 @@ const About = () => (
                 </svg>{' '}
                 Sugestões e ideias
               </span>
-            </button>
+            </a>
           </div>
         </div>
       </div>

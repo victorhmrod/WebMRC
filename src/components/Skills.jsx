@@ -8,10 +8,10 @@ const Skills = ({ stats }) => (
           <div className="column left">
             <div className="text">Quais foram e quais são nossos projetos</div>
             <p>
-              Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for
-              previewing layouts and visual mockups.
+              Estamos sempre desenvolvendo novas soluções e acompanhando de perto cada etapa dos contratos.
+              Nosso compromisso é garantir proteção contínua com transparência e proximidade.
             </p>
-            <button className="cssbuttons-io" type="button">
+            <a className="cssbuttons-io" href="https://wa.me/5571991803612">
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                   <path fill="none" d="M0 0h24v24H0z" />
@@ -22,7 +22,7 @@ const Skills = ({ stats }) => (
                 </svg>{' '}
                 Mais informações
               </span>
-            </button>
+            </a>
           </div>
           <div className="column right">
             {stats.map((stat, index) => (

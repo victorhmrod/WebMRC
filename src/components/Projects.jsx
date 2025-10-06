@@ -15,8 +15,8 @@ const Projects = ({ projects }) => (
               <div className="project-overlay">
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
-                <a href="#" className="btn btn-primary">
-                  View Project
+                <a href="https://wa.me/5571991803612" className="btn btn-primary">
+                  Fale conosco
                 </a>
               </div>
             </div>
