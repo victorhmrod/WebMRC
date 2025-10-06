@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { BsInstagram, BsWhatsapp } from 'react-icons/bs';
 import { IoClose, IoMenu } from 'react-icons/io5';
+import logo from '../assets/logo.svg';
 
 const Navbar = ({ navLinks }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,8 +34,14 @@ const Navbar = ({ navLinks }) => {
     >
       <div className="container">
         <div className="logo">
-          <a href="#home" onClick={closeMenu}>
-            Mendonça Rodrigues <span> Corretora</span>
+          <a
+            href="#home"
+            className="logo-link"
+            onClick={closeMenu}
+            aria-label="Mendonça Rodrigues Corretora"
+          >
+            <img src={logo} alt="Mendonça Rodrigues Corretora" />
+            <span className="sr-only">Mendonça Rodrigues Corretora</span>
           </a>
         </div>
         <button
