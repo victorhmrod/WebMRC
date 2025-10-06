@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 140" role="img" aria-labelledby="title desc">
+  <title id="title">Logomarca Mendonça Rodrigues Corretora</title>
+  <desc id="desc">Símbolo azul envolto por ilustrações florais douradas.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#fbc66a" stop-opacity="0.8" />
+      <stop offset="55%" stop-color="#f5a623" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#04060d" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="petal" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#23488f" />
+      <stop offset="100%" stop-color="#0b1f4b" />
+    </linearGradient>
+    <linearGradient id="petalHighlight" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1f3e7f" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0a1a3b" stop-opacity="0.95" />
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="240" height="140" fill="url(#glow)" />
+  <g filter="url(#softGlow)">
+    <g fill="none" stroke="#f7b733" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M40 84c12-18 30-32 52-36" />
+      <path d="M200 84c-12-18-30-32-52-36" />
+      <path d="M54 92c6-8 14-15 24-18" />
+      <path d="M186 92c-6-8-14-15-24-18" />
+      <path d="M66 100c4-7 9-12 16-15" />
+      <path d="M174 100c-4-7-9-12-16-15" />
+      <circle cx="66" cy="68" r="6" fill="#f7b733" />
+      <circle cx="50" cy="104" r="4.5" fill="#f7b733" />
+      <circle cx="190" cy="68" r="6" fill="#f7b733" />
+      <circle cx="206" cy="104" r="4.5" fill="#f7b733" />
+      <path d="M82 60c-4 4-6 10-4 16" />
+      <path d="M158 60c4 4 6 10 4 16" />
+    </g>
+    <g transform="translate(120 76)">
+      <path d="M0-44c-20 0-36 16-36 36 0 26 18 46 36 58 18-12 36-32 36-58 0-20-16-36-36-36z" fill="url(#petal)" />
+      <path d="M0-28c-12 0-22 10-22 22 0 18 12 32 22 40 10-8 22-22 22-40 0-12-10-22-22-22z" fill="url(#petalHighlight)" />
+      <circle cy="-54" r="20" fill="#23488f" stroke="#0b1f4b" stroke-width="6" />
+      <path d="M0-8c-10-8-18-18-18-28 0-10 8-18 18-18s18 8 18 18c0 10-8 20-18 28z" fill="#102a5c" />
+    </g>
+  </g>
+</svg>
