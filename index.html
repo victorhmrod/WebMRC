@@ -1,13 +1,541 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/img/Icons/icone2.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mendonça Rodrigues Corretora</title>
+    <title>Mendonça Rodrigues Corretora de Seguros</title>
+    <meta
+      name="description"
+      content="Consultoria de seguros que protege pessoas, famílias e empresas com soluções personalizadas em vida, saúde, patrimonial e benefícios."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+    <header class="site-header" id="topo">
+      <div class="header__bar">
+        <div class="container">
+          <div class="header__contact">
+            <span><i class="fa-solid fa-phone"></i> (11) 97801-3142</span>
+            <span><i class="fa-solid fa-envelope"></i> contato@mendoncarodrigues.com</span>
+            <span><i class="fa-solid fa-location-dot"></i> São Paulo e Região Metropolitana</span>
+          </div>
+          <div class="header__social">
+            <a href="https://www.instagram.com/mendoncarodrigues" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="navbar" aria-label="Navegação principal">
+        <div class="container navbar__inner">
+          <a class="navbar__brand" href="#topo" aria-label="Página inicial Mendonça Rodrigues">
+            <img src="public/img/Icons/icone2.png" alt="Logo Mendonça Rodrigues" />
+            <span>Mendonça Rodrigues</span>
+          </a>
+          <button class="navbar__toggle" aria-expanded="false" aria-controls="menu-principal">
+            <span class="sr-only">Abrir menu</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="navbar__links" id="menu-principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#solucoes">Soluções</a>
+            <a href="#diferenciais">Diferenciais</a>
+            <a href="#clientes">Clientes</a>
+            <a href="#faq">Dúvidas</a>
+            <a href="#contato">Contato</a>
+            <a class="btn btn--outline" href="https://wa.link/21qe55" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i>
+              Fale com uma consultora
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero" id="conteudo">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <span class="hero__eyebrow">Consultoria de seguros sob medida</span>
+            <h1>Proteção inteligente para quem cuida do que importa</h1>
+            <p>
+              A Mendonça Rodrigues estrutura programas completos de seguros para famílias, profissionais liberais e
+              empresas. Analisamos riscos, comparamos apólices e acompanhamos a jornada para que cada decisão seja segura
+              e transparente.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="https://wa.link/21qe55" target="_blank" rel="noopener">
+                <i class="fa-brands fa-whatsapp"></i>
+                Conversar agora
+              </a>
+              <a class="btn btn--ghost" href="#solucoes">
+                <i class="fa-solid fa-arrow-down"></i>
+                Conheça as soluções
+              </a>
+            </div>
+            <dl class="hero__stats">
+              <div>
+                <dt>Famílias acompanhadas</dt>
+                <dd data-counter="180">0</dd>
+              </div>
+              <div>
+                <dt>Empresas protegidas</dt>
+                <dd data-counter="95">0</dd>
+              </div>
+              <div>
+                <dt>Satisfação dos clientes</dt>
+                <dd><span data-counter="98">0</span>%</dd>
+              </div>
+            </dl>
+          </div>
+          <aside class="hero__card" aria-label="Principais coberturas">
+            <div class="hero__card-header">
+              <span>Planos personalizados</span>
+              <h2>Linhas de proteção</h2>
+            </div>
+            <ul>
+              <li><i class="fa-solid fa-shield-heart"></i> Seguro de vida individual e familiar</li>
+              <li><i class="fa-solid fa-user-nurse"></i> Saúde e benefícios para colaboradores</li>
+              <li><i class="fa-solid fa-briefcase"></i> Seguro empresarial e responsabilidade civil</li>
+              <li><i class="fa-solid fa-house"></i> Seguro residencial, auto e patrimonial</li>
+              <li><i class="fa-solid fa-piggy-bank"></i> Previdência privada e planejamento sucessório</li>
+            </ul>
+            <a class="hero__link" href="#contato">Quero um plano feito para mim <i class="fa-solid fa-arrow-right"></i></a>
+          </aside>
+        </div>
+        <div class="hero__clients">
+          <div class="container hero__clients-inner">
+            <span>Parceiros estratégicos</span>
+            <ul>
+              <li>Porto</li>
+              <li>Bradesco</li>
+              <li>SulAmérica</li>
+              <li>MetLife</li>
+              <li>Omint</li>
+              <li>Sompo</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section" id="sobre">
+        <div class="container about">
+          <div class="about__media">
+            <figure>
+              <img src="public/img/background/img_3.jpg" alt="Consultora apresentando opções de seguros" />
+              <figcaption>Equipe dedicada ao seu momento de vida.</figcaption>
+            </figure>
+          </div>
+          <div class="about__content">
+            <span class="section__eyebrow">Quem somos</span>
+            <h2>Cuidado humano com estratégia de grandes players</h2>
+            <p>
+              Unimos experiência executiva no mercado de seguros à escuta ativa para traduzir coberturas em soluções reais.
+              Estudamos o perfil de cada cliente, antecipamos riscos e montamos programas que preservam patrimônio,
+              saúde e tranquilidade.
+            </p>
+            <div class="about__highlights">
+              <article>
+                <h3>Gestão completa</h3>
+                <p>Acompanhamento de sinistros, movimentações e renovações com relatórios periódicos.</p>
+              </article>
+              <article>
+                <h3>Atendimento próximo</h3>
+                <p>Time sempre disponível por WhatsApp, telefone ou reuniões presenciais.</p>
+              </article>
+              <article>
+                <h3>Resultados mensuráveis</h3>
+                <p>Economia média de 18% nas renovações sem perder coberturas essenciais.</p>
+              </article>
+            </div>
+            <a class="btn btn--primary" href="#contato">Agende uma reunião estratégica</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="solucoes">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Portfólio completo</span>
+            <h2>Soluções em seguros para todos os momentos</h2>
+            <p>
+              Desenvolvemos programas sob medida para pessoas físicas e jurídicas, sempre respaldados por seguradoras de
+              primeira linha e pela consultoria próxima da nossa equipe.
+            </p>
+          </div>
+          <div class="grid solutions">
+            <article class="card">
+              <span class="card__icon"><i class="fa-solid fa-heart"></i></span>
+              <h3>Vida e família</h3>
+              <p>Proteção financeira para quem você ama com coberturas para doenças graves, invalidez e sucessão.</p>
+              <ul>
+                <li>Análise de perfil e cálculo de capital ideal</li>
+                <li>Apólices individuais e corporativas</li>
+                <li>Assistências 24h e serviços agregados</li>
+              </ul>
+            </article>
+            <article class="card">
+              <span class="card__icon"><i class="fa-solid fa-stethoscope"></i></span>
+              <h3>Saúde e odontológico</h3>
+              <p>Planos empresariais e por adesão com rede qualificada e gestão de utilização.</p>
+              <ul>
+                <li>Negociação com operadoras líderes</li>
+                <li>Gestão de vidas e movimentações</li>
+                <li>Campanhas de saúde e bem-estar</li>
+              </ul>
+            </article>
+            <article class="card">
+              <span class="card__icon"><i class="fa-solid fa-building-shield"></i></span>
+              <h3>Empresarial</h3>
+              <p>Programas completos para proteger operação, pessoas e responsabilidade da sua empresa.</p>
+              <ul>
+                <li>Patrimonial, frota, transporte e RC</li>
+                <li>Benefícios flexíveis e convenções</li>
+                <li>Planos de continuidade de negócios</li>
+              </ul>
+            </article>
+            <article class="card">
+              <span class="card__icon"><i class="fa-solid fa-car"></i></span>
+              <h3>Auto e patrimonial</h3>
+              <p>Soluções para veículos, residências e bens de alto valor com assistência premium.</p>
+              <ul>
+                <li>Monitoramento de franquias e bônus</li>
+                <li>Reposição garantida e carro reserva</li>
+                <li>Seguro para colecionadores e náutica</li>
+              </ul>
+            </article>
+            <article class="card">
+              <span class="card__icon"><i class="fa-solid fa-scale-balanced"></i></span>
+              <h3>Responsabilidade civil</h3>
+              <p>Proteção para profissionais liberais, administradores e empresas prestadoras de serviço.</p>
+              <ul>
+                <li>RC Profissional e E&O</li>
+                <li>D&O, cyber e riscos ambientais</li>
+                <li>Programas de compliance e prevenção</li>
+              </ul>
+            </article>
+            <article class="card">
+              <span class="card__icon"><i class="fa-solid fa-coins"></i></span>
+              <h3>Previdência e investimentos</h3>
+              <p>Planejamento financeiro com foco em sucessão, aposentadoria e proteção patrimonial.</p>
+              <ul>
+                <li>Diagnóstico de objetivos e perfil</li>
+                <li>Linhas PGBL, VGBL e fundos exclusivos</li>
+                <li>Suporte tributário e sucessório</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="diferenciais">
+        <div class="container">
+          <div class="grid highlights">
+            <div class="highlights__intro">
+              <span class="section__eyebrow">Por que escolher a Mendonça Rodrigues</span>
+              <h2>Transparência, dados e presença ao seu lado em cada etapa</h2>
+              <p>
+                Atuamos como extensão do seu time. Realizamos diagnósticos completos, desenhamos cenários, acompanhamos
+                sinistros e apresentamos indicadores para decisões mais seguras e estratégicas.
+              </p>
+              <div class="highlights__stats">
+                <div>
+                  <strong data-counter="12">0</strong>
+                  <span>anos de experiência</span>
+                </div>
+                <div>
+                  <strong data-counter="18">0</strong>
+                  <span>seguradoras parceiras</span>
+                </div>
+                <div>
+                  <strong data-counter="24">0</strong>
+                  <span>horas para retorno médio</span>
+                </div>
+              </div>
+            </div>
+            <div class="highlights__list">
+              <article>
+                <h3><i class="fa-solid fa-chart-line"></i> Consultoria orientada por dados</h3>
+                <p>Analisamos histórico, perfil de uso e indicadores para sugerir coberturas e franquias ideais.</p>
+              </article>
+              <article>
+                <h3><i class="fa-solid fa-comments"></i> Comunicação clara e humana</h3>
+                <p>Explicamos cada cláusula em linguagem simples, garantindo que você saiba exatamente o que está contratando.</p>
+              </article>
+              <article>
+                <h3><i class="fa-solid fa-people-group"></i> Atendimento multicanal</h3>
+                <p>Time dedicado disponível por WhatsApp, e-mail e visitas presenciais sempre que necessário.</p>
+              </article>
+              <article>
+                <h3><i class="fa-solid fa-laptop"></i> Relatórios estratégicos</h3>
+                <p>Acompanhamos renovações, reajustes e sinistros com dashboards periódicos para gestores.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--soft" id="clientes">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Histórias reais</span>
+            <h2>Clientes que confiaram sua proteção à nossa equipe</h2>
+            <p>Empresas familiares, escritórios boutique, profissionais liberais e startups fazem parte do nosso dia a dia.</p>
+          </div>
+          <div class="grid testimonials" role="list">
+            <article class="testimonial" role="listitem">
+              <p>
+                “A equipe da Mendonça Rodrigues revisou todas as apólices da clínica e reduziu custos mantendo coberturas
+                essenciais. Hoje temos relatórios trimestrais que facilitam decisões.”
+              </p>
+              <div class="testimonial__meta">
+                <img src="public/img/equipe/perfil_isabel.png" alt="Foto da cliente Isabel" />
+                <div>
+                  <h3>Isabel Nunes</h3>
+                  <span>Empresária e cliente desde 2019</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial" role="listitem">
+              <p>
+                “Precisávamos de suporte rápido para nossos colaboradores e encontramos uma corretora que realmente está
+                presente. Cada dúvida é respondida com atenção e clareza.”
+              </p>
+              <div class="testimonial__meta">
+                <img src="public/img/equipe/perfil_alexsandra.jpg" alt="Foto da cliente Alexsandra" />
+                <div>
+                  <h3>Alexsandra Mendonça</h3>
+                  <span>Sócia de escritório contábil</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial" role="listitem">
+              <p>
+                “Tínhamos dificuldade em entender as opções de seguros pessoais. A consultoria foi detalhada e trouxe
+                tranquilidade para toda a família.”
+              </p>
+              <div class="testimonial__meta">
+                <img src="public/img/equipe/perfil_henrique.jpg" alt="Foto do cliente Henrique" />
+                <div>
+                  <h3>Henrique Rodrigues</h3>
+                  <span>Gestor industrial e cliente desde 2016</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Como trabalhamos</span>
+            <h2>Uma jornada consultiva simples e transparente</h2>
+            <p>Metodologia estruturada para transformar seguros em uma experiência estratégica, do diagnóstico à gestão.</p>
+          </div>
+          <ol class="process__steps">
+            <li>
+              <span>1</span>
+              <h3>Diagnóstico profundo</h3>
+              <p>Levantamos objetivos, histórico, riscos e perfil financeiro para dimensionar coberturas e capitais.</p>
+            </li>
+            <li>
+              <span>2</span>
+              <h3>Desenho de cenários</h3>
+              <p>Comparamos seguradoras, franquias e assistências apresentando simulações claras e imparciais.</p>
+            </li>
+            <li>
+              <span>3</span>
+              <h3>Implementação guiada</h3>
+              <p>Organizamos documentação, treinamos equipes e acompanhamos as primeiras utilizações.</p>
+            </li>
+            <li>
+              <span>4</span>
+              <h3>Gestão contínua</h3>
+              <p>Monitoramos sinistros, reajustes e oportunidades de melhoria ao longo de toda a vigência.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section--soft faq" id="faq">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Dúvidas frequentes</span>
+            <h2>Respondemos com clareza</h2>
+            <p>Transparência é a base da nossa atuação. Confira respostas para perguntas comuns e fale com a nossa equipe.</p>
+          </div>
+          <div class="faq__grid">
+            <div class="faq__item">
+              <button class="faq__question" aria-expanded="false">
+                Como funciona a consultoria personalizada?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Iniciamos com uma reunião diagnóstica para compreender suas necessidades. Em seguida, elaboramos um plano
+                  com cenários comparativos, apresentamos as opções ideais e acompanhamos toda a contratação.
+                </p>
+              </div>
+            </div>
+            <div class="faq__item">
+              <button class="faq__question" aria-expanded="false">
+                Vocês atendem empresas de qual porte?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Atuamos com empresas a partir de 5 colaboradores até grandes corporações. Modelamos a consultoria conforme
+                  a complexidade da operação e a maturidade do programa de benefícios ou seguros.
+                </p>
+              </div>
+            </div>
+            <div class="faq__item">
+              <button class="faq__question" aria-expanded="false">
+                É possível migrar minhas apólices atuais?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Sim. Fazemos uma auditoria completa das apólices vigentes, negociamos com seguradoras e coordenamos a
+                  migração sem perda de cobertura ou carências sempre que possível.
+                </p>
+              </div>
+            </div>
+            <div class="faq__item">
+              <button class="faq__question" aria-expanded="false">
+                Oferecem suporte durante sinistros?
+              </button>
+              <div class="faq__answer">
+                <p>
+                  Nosso time acompanha cada etapa do sinistro: abertura, documentação, tratativa com a seguradora e
+                  desfecho. Mantemos você informado com prazos e próximos passos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contato">
+        <div class="container contact__grid">
+          <div class="contact__content">
+            <span class="section__eyebrow">Próximo passo</span>
+            <h2>Converse com a nossa equipe</h2>
+            <p>
+              Envie uma mensagem ou agende uma reunião para receber um diagnóstico gratuito. Vamos entender suas
+              prioridades e sugerir o melhor caminho.
+            </p>
+            <ul class="contact__details">
+              <li><i class="fa-solid fa-phone"></i> (11) 97801-3142</li>
+              <li><i class="fa-solid fa-envelope"></i> contato@mendoncarodrigues.com</li>
+              <li><i class="fa-solid fa-location-dot"></i> Atendimento em São Paulo e região</li>
+            </ul>
+            <a class="btn btn--light" href="https://wa.link/21qe55" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i>
+              Atendimento imediato
+            </a>
+          </div>
+          <form class="contact__form" action="https://formsubmit.co/contato@mendoncarodrigues.com" method="POST">
+            <input type="hidden" name="_subject" value="Novo contato via site" />
+            <input type="hidden" name="_captcha" value="false" />
+            <div class="form__group">
+              <label for="nome">Nome completo</label>
+              <input type="text" id="nome" name="nome" placeholder="Como devemos te chamar?" required />
+            </div>
+            <div class="form__group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="nome@empresa.com" required />
+            </div>
+            <div class="form__group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" />
+            </div>
+            <div class="form__group">
+              <label for="interesse">Qual a sua necessidade?</label>
+              <select id="interesse" name="interesse">
+                <option value="Consultoria completa">Consultoria completa</option>
+                <option value="Seguro de vida">Seguro de vida</option>
+                <option value="Benefícios para colaboradores">Benefícios para colaboradores</option>
+                <option value="Seguro empresarial">Seguro empresarial</option>
+                <option value="Outros">Outros</option>
+              </select>
+            </div>
+            <div class="form__group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte um pouco sobre o seu momento."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <a href="#topo">
+            <img src="public/img/Icons/icone1.png" alt="Logo Mendonça Rodrigues" />
+          </a>
+          <p>Protegemos pessoas e negócios com estratégias personalizadas de seguros e benefícios.</p>
+        </div>
+        <div class="footer__menu">
+          <h3>Mapa do site</h3>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li><a href="#faq">Dúvidas</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <h3>Fale com a gente</h3>
+          <ul>
+            <li><i class="fa-solid fa-envelope"></i> contato@mendoncarodrigues.com</li>
+            <li><i class="fa-solid fa-phone"></i> (11) 97801-3142</li>
+            <li><i class="fa-solid fa-clock"></i> Atendimento de segunda a sexta, das 9h às 18h</li>
+          </ul>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/mendoncarodrigues" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <p>&copy; <span id="ano"></span> Mendonça Rodrigues Corretora de Seguros. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp" href="https://wa.link/21qe55" target="_blank" rel="noopener" aria-label="Conversa pelo WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="JS/main.js" defer></script>
   </body>
 </html>
